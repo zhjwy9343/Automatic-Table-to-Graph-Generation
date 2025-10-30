@@ -20,7 +20,7 @@ bash multi-table-benchmark/conda/create_conda_env.sh -c -p 3.9 -t 2.1
 # the env name will be autog-cpu
 conda activate autog-cpu
 
-# -------------- install other dependencies int autog-cpu environment
+# -------------- install other dependencies in autog-cpu environment
 pip install codetiming humanfriendly sentence_transformers==3.3.0 nltk==3.9.1 torchdata==0.7 torchtext==0.16.0
 pip install transformers==4.44.2
 pip install llama-index llama-index-llms-bedrock
